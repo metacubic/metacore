@@ -1,0 +1,23 @@
+{
+  "moduleFileExtensions": [
+    "js",
+    "json",
+    "ts"
+  ],
+  "rootDir": ".",
+  "testEnvironment": "node",
+  "testRegex": ".e2e-spec.ts$",
+  "transform": {
+    "^.+\\.(t|j)s$": "ts-jest"
+  },
+  "moduleNameMapper": {
+    "@media/media-engine/(.*)": "<rootDir>/../libs/media-engine/src/$1",
+    "@media/media-engine": "<rootDir>/../libs/media-engine/src",
+    "@discord/discord/(.*)": "<rootDir>/../libs/discord/src/$1",
+    "@discord/discord": "<rootDir>/../libs/discord/src",
+    "@engine/engine/(.*)": "<rootDir>/../libs/engine/src/$1",
+    "@engine/engine": "<rootDir>/../libs/engine/src",
+    "@block/block/(.*)": "<rootDir>/../libs/block/src/$1",
+    "@block/block": "<rootDir>/../libs/block/src"
+  }
+}
